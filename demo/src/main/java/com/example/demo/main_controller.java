@@ -10,5 +10,13 @@ public class main_controller {
 	public String index() {
 		return null;
 	}
+
+}
+//컨트롤로 외부 클래스로 맵핑!!
+class abc{
 	
+	@GetMapping("/top.do")
+	public String top() {
+		return null;
+	}
 }
